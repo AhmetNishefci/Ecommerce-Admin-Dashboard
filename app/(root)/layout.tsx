@@ -22,9 +22,7 @@ const SetupLayout = async ({
         if (store) {
             redirect(`/${store.id}`)
         }
-
-        console.log('storeeeee', store)
-
+        
         return (
             <div>
                 {children}

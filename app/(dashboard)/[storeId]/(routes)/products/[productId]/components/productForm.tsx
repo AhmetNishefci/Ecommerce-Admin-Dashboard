@@ -103,7 +103,6 @@ export const ProductForm = ({
             router.push(`/${storeId}/products`)
             toast.success("Product deleted successfully!")
         } catch (error) {
-            console.log('HEEEEEEEY', error)
             toast.error("Something went wrong, please try again!")
         } finally {
             stopLoading()

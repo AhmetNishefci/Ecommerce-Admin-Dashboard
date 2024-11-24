@@ -160,7 +160,6 @@ export const DELETE = async (req: Request, { params } : { params: { productId: s
 
         return NextResponse.json(product)
     } catch(error){
-        console.log('HERE', error)
         return new NextResponse("Internal Server Error", { status: 500 })
     }
 }

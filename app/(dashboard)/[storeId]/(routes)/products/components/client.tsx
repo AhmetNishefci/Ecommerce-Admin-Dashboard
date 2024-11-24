@@ -20,8 +20,6 @@ export const ProductClient = ({
 }: ProductClientProps) => {
     const router = useRouter()
     const { storeId } = useParams()
-
-    console.log('productsData', productsData)
     return (
         <>
             <div className="flex items-center justify-between">
